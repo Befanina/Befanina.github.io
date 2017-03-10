@@ -1,3 +1,30 @@
+body {
+	margin: 0;
+}
+
 img {
 	width: 100%;
+}
+section {
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	/*background-color: rgba(); */
+	background-color: rgba(33, 55, 200, 0.3);
+	/* Comment : 0123456789abcdef */
+	margin: 30px;
+	color: #bbffaa;
+
+}
+section > a {
+	text-decoration: none;
+	color:red;
+}
+a:hover {
+	color: pink;
+}
+.wrapper {
+background-color: #dddddd;
 }
